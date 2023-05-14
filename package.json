@@ -19,7 +19,7 @@
   "config": {
     "deployToGit": {
       "repository": "git@github.com:upadhyaypushpendra/traffic-race.git",
-      "branch": "deploy",
+      "branch": "master",
       "folder": "dist",
       "commit": "Deployed to git",
       "script": "npm run build",
