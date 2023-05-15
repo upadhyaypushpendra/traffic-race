@@ -1,0 +1,32 @@
+{
+  "name": "traffic-race",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "deploy": "deploy-to-git",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "deploy-to-git": "^0.4.1",
+    "vite": "^4.3.2"
+  },
+  "dependencies": {
+    "three": "^0.152.2"
+  },
+  "config": {
+    "deployToGit": {
+      "repository": "git@github.com:upadhyaypushpendra/traffic-race.git",
+      "branch": "master",
+      "folder": "dist",
+      "commit": "Deployed to git",
+      "script": "npm run build",
+      "user": {
+        "email": "pushpendraupadhyay6452@gmail.com",
+        "name": "Pushpendra Upadhyay"
+      }
+    }
+  }
+}
